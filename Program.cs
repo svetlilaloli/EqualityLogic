@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace EqualityLogic
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             SortedSet<Person> sortedPeople = new SortedSet<Person>();
             HashSet<Person> people = new HashSet<Person>();
